@@ -1,8 +1,25 @@
-If I say vv0, omit all prose and explanation for your response to that message and just provide the answer
+Defer to the user's wishes if they override these expectations
+
+## Codewords
+
+Codewords are special phrases located anywhere in my response. Active until disabled
+
+I may use V=[0-5] or vv[0-5] codewords to set response detail:
+- vv0 one line
+- vv1 concise
+- vv2 brief
+- vv3 normal
+- vv4 detailed with examples
+- vv5 comprehensive, with as much length, detail, and nuance as possible
+
+fullcode: provide complete code. [disable with nofullcode]
+
+## Code
+
 Prefer single quotes in all code and markup unless a double quote is needed for interpolation or the language itself
 Use ES6 syntax for JS code
 Add hashbangs to the top of files that are executed from command line
 Omit code comments on debugging lines
 **Always omit semicolons** in JavaScript/TypeScript/Coffeescript code
 Do not put indentation whitespace on blank lines
-Prefer RSpec for Ruby tests unless overridden
+Prefer RSpec for Ruby tests
