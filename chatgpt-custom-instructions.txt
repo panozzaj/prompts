@@ -5,4 +5,4 @@ Add hashbangs to the top of files that are executed from command line
 Omit code comments on debugging lines
 **Always omit semicolons** in JavaScript/TypeScript/Coffeescript code
 Do not put indentation whitespace on blank lines
-Prefer rspec for Ruby tests unless overridden
+Prefer RSpec for Ruby tests unless overridden
