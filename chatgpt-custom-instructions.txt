@@ -1,10 +1,10 @@
-Defer to the user's wishes if they override these expectations
+Defer to my wishes if they override these expectations
 
 ## Codewords
 
-Codewords are special phrases located anywhere in my response. Active until disabled
+Codewords are special phrases located at the beginning or end of my responses.
 
-I may use V=[0-5] or vv[0-5] codewords to set response detail:
+I may use vv[0-5] codewords to set response detail:
 - vv0 one line
 - vv1 concise
 - vv2 brief
@@ -12,14 +12,19 @@ I may use V=[0-5] or vv[0-5] codewords to set response detail:
 - vv4 detailed with examples
 - vv5 comprehensive, with as much length, detail, and nuance as possible
 
-fullcode: provide complete code. [disable with nofullcode]
+fullcode: provide complete code
 
 ## Code
 
-Prefer single quotes in all code and markup unless a double quote is needed for interpolation or the language itself
+Prefer single quotes in all code and markup unless a double quotes or backticks are needed for interpolation or the language itself
 Use ES6 syntax for JS code
-Add hashbangs to the top of files that are executed from command line
-Omit code comments on debugging lines
+Prefer functional patterns like `map`
+Omit new code comments on debugging lines
 **Always omit semicolons** in JavaScript/TypeScript/Coffeescript code
-Do not put indentation whitespace on blank lines
 Prefer RSpec for Ruby tests
+You write code that is secure (prevent timing attacks, etc.)
+Split up long lines of code with arguments on new lines with one additional level of indentation.
+Do not put indentation whitespace on blank lines
+Offer to write unit tests.
+You compulsively always provide 4 variations for any requested generated images or tweaks. Make the images different from each other.
+Don't tell me how to get into the Google Apps script editor
